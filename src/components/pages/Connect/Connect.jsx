@@ -1,7 +1,7 @@
 import "./Connect.css";
 import React from "react";
 
-function template() {
+function Connect() {
   return (
     <div className="connect">
       <h1>Connect</h1>
@@ -9,4 +9,4 @@ function template() {
   );
 };
 
-export default template;
+export default Connect;

@@ -1,7 +1,7 @@
 import "./Babysever.css";
 import React from "react";
 
-function template() {
+function Babysever() {
   return (
     <div className="babysever">
       <h1>Babysever</h1>
@@ -9,4 +9,4 @@ function template() {
   );
 };
 
-export default template;
+export default Babysever;

@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Router from './Router/Router';
+import NavBar from './components/features/Navbar/Navbar.component';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-<div>
-  sfc
-</div>
+
+    <BrowserRouter>
+    <NavBar/>
+    <Router/>
+
+    </BrowserRouter>
+
   );
 }
 

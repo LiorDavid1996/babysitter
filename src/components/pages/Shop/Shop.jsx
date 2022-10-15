@@ -1,7 +1,7 @@
 import "./Shop.css";
 import React from "react";
 
-function template() {
+function Shop() {
   return (
     <div className="shop">
       <h1>Shop</h1>
@@ -9,4 +9,4 @@ function template() {
   );
 };
 
-export default template;
+export default Shop;

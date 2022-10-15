@@ -1,7 +1,7 @@
 import "./Post.css";
 import React from "react";
 
-function template() {
+function Post() {
   return (
     <div className="post">
       <h1>Post</h1>
@@ -9,4 +9,4 @@ function template() {
   );
 };
 
-export default template;
+export default Post;

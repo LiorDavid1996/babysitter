@@ -1,2 +1,2 @@
-import babysitter from "./babysitter";
-export default babysitter;
+import Babysitter from "./Babysitter";
+export default Babysitter;

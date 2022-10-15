@@ -1,7 +1,7 @@
-import "./About-us.css";
+import "./AboutUs.css";
 import React from "react";
 
-function template() {
+function AboutUs() {
   return (
     <div className="about-us">
       <h1>About-us</h1>
@@ -9,4 +9,4 @@ function template() {
   );
 };
 
-export default template;
+export default AboutUs;

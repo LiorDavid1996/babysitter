@@ -1,12 +1,12 @@
-import "./babysitter.css";
+import "./Babysitter.css";
 import React from "react";
 
-function template() {
+function Babysitter() {
   return (
     <div className="babysitter">
-      <h1>babysitter</h1>
+      <h1>Babysitter</h1>
     </div>
   );
 };
 
-export default template;
+export default Babysitter;
