@@ -1,12 +1,33 @@
+import Map from "../../features/Map/Map";
 import "./Babysitter.css";
-import React from "react";
+import{useLoadScript} from '@react-google-maps/api'
+import React ,{useState} from "react";
+import Favorites from "../../features/favourites/Favorites";
+
+
+
 
 function Babysitter() {
-  return (
-    <div className="babysitter">
-      <h1>Babysitter</h1>
-    </div>
-  );
-};
+  const [show, setShow] = useState(false);
 
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+    
+    const {isLoaded} = useLoadScript({
+        googleMapsApiKey:"AIzaSyBsRA0lNsStbmImpF5hcYzbvTZmlUWtKZM",
+        libraries:["places"]
+      })
+      if(!isLoaded) return <div>loading...</div>
+      return (
+        <>
+         <Map/>
+          <Favorites/>
+       
+         </>
+
+      )
+     
+ 
+}
 export default Babysitter;

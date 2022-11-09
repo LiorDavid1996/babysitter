@@ -1,10 +1,35 @@
 import { Route, Routes } from "react-router-dom";
-import Gome from "../components/pages/Home/Home";
+import {
+  Home,
+  Post,
+  Connect,
+  Babysever,
+  AboutUs,
+  Shop,
+  Babysitter,
+} from "../components/index";
+import Login from "../components/features/login";
+import SignUp from "../components/features/Signup";
+import ProtectedRoute from "../components/protectedRoute";
+import BabySitterProvider from "../context/BabySitterContext";
 
- function Router() {
-<Routes>
-    <Route path="/" element={<Gome/>}/>
-</Routes>
-    
-}
-export default Router;
+export default function Router() {
+  return (
+   <BabySitterProvider>
+      <Routes>
+          <Route path="/Post" element={<Post />} />
+          <Route path="/Connect" element={<Connect />} />
+          <Route path="/Babysever" element={<Babysever />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Shop" element={<Shop />} />
+          <Route path="/Babysitter" element={<Babysitter /> } />
+        
+
+        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/SingUp" element={<SignUp />} />
+      </Routes>
+      </BabySitterProvider>
+  );
+};

@@ -1,0 +1,10 @@
+.home{
+    background-color: palevioletred;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+   height: 60vh;
+   width: 50vw;
+}
