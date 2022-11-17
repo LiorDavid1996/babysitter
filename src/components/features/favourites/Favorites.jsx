@@ -8,12 +8,12 @@ export default function Favorites() {
   const { isFavorite, setFavorite } = useContext(BabysitterContext);
 
   return (
-    <div className="border" style={{ width: "40vw" }}>
+    <div className="border" style={{ width: isFavorite.length?'100%':"40vw" }}>
       <h2 className="border">your Favorites</h2>
       { isFavorite.length!=0 ? 
 
       isFavorite.map((item)=>
-      <FavouringItem item={item} /> 
+      <FavouringItem  item={item} /> 
         
       )
 

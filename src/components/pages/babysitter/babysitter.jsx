@@ -15,7 +15,7 @@ function Babysitter() {
 
     
     const {isLoaded} = useLoadScript({
-        googleMapsApiKey:"AIzaSyBsRA0lNsStbmImpF5hcYzbvTZmlUWtKZM",
+        googleMapsApiKey:process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
         libraries:["places"]
       })
       if(!isLoaded) return <div>loading...</div>

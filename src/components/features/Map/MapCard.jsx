@@ -5,12 +5,12 @@ import { BabysitterContext } from "../../../context/BabySitterContext";
 import { useEffect } from "react";
 
 export default function MapCard({ isMapCardOpen, closeMapCard, text }) {
-  const { isFavorite, setFavorite } = useContext(BabysitterContext);
+  const { isFavorite, setFavorite ,isInFavorites} = useContext(BabysitterContext);
 
   // useEffect(() => {
   //   setFavorite([...text]);
   // }, []);
-  console.log(text);
+  
 
   const {
     id,
@@ -81,7 +81,9 @@ export default function MapCard({ isMapCardOpen, closeMapCard, text }) {
           </div>
           <div>
             <button onClick={()=>{
-              setFavorite([...isFavorite,{text}])
+             isInFavorites({text})
+              // setFavorite([{text},...isFavorite])
+
             }}>add favorite</button>
           </div>
         </Stack>
