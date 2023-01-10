@@ -42,7 +42,7 @@ const {babySitterArray,setBabySitterArray}=useContext(BabysitterContext)
       </div>
       <div className="map">
         <GoogleMap
-          zoom={17}
+          zoom={15}
           center={center}
           mapContainerClassName="map-container"
           options={options}
