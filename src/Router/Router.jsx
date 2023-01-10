@@ -8,6 +8,7 @@ import {
   Shop,
   Babysitter,
 } from "../components/index";
+import TagInput from "../components/features/Map/Test";
 import Login from "../components/features/login";
 import SignUp from "../components/features/Signup";
 import ProtectedRoute from "../components/protectedRoute";
@@ -25,7 +26,7 @@ export default function Router() {
           <Route path="/Babysitter" element={<Babysitter /> } />
         
 
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<TagInput />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/SingUp" element={<SignUp />} />
