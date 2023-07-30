@@ -1,0 +1,28 @@
+.blackFamilyPic{
+    width: 100vw;
+    height: 70vh;
+}
+.AbutUs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    
+    
+    
+    
+
+}
+
+#div2{
+  background-color: dodgerblue; 
+   
+}
+#div3{
+    background-color: palevioletred;
+}
+#div4{
+    background-color: dodgerblue;
+}

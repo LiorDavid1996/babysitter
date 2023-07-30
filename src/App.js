@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Router from './Router/Router';
+import NavBar from './components/features/Navbar/Navbar.component';
+import { BrowserRouter } from 'react-router-dom';
+import Home from './components/pages/Home/Home';
+import Login from "./components/features/login"
+import "bootstrap/dist/css/bootstrap.min.css";
+import { ShoppingCardProvider } from './context/StoreContext'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+<BrowserRouter>
+<ShoppingCardProvider>
+  <NavBar/>
+   <Router/>
+</ShoppingCardProvider>
+</BrowserRouter>
+    
+</>
   );
 }
 

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name":"Gerber Apple flavored",
+        "price": 9.90,
+        "imgUrl": "/picture/gerberApell.jpg"
+    },
+    {
+        "id": 2,
+        "name":"gerber made of wheat ",
+        "price": 20.00,
+        "imgUrl": "/picture/gerberHita.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Gerber Mango flavored",
+        "price": 9.90,
+        "imgUrl": "/picture/gerberMango.jpg"
+    },
+    {
+        "id": 4,
+        "name":"materna step one",
+        "price": 45.00,
+        "imgUrl": "/picture/materna 1.jpg"
+    },
+    {
+        "id": 5,
+        "name":"materna A.R",
+        "price": 53.00,
+        "imgUrl": "/picture/maternaAI.jpg.jpg"
+    },
+    {
+        "id": 6,
+        "name":"materna gold",
+        "price": 48.00,
+        "imgUrl": "/picture/maternaGold3.jpg"
+    },
+    {
+        "id": 7,
+        "name":"four pacifier",
+        "price": 12.00,
+        "imgUrl": "/picture/motztzim.jpg"
+    },
+    {
+        "id": 8,
+        "name":" tow pacifier animals",
+        "price": 7.90,
+        "imgUrl": "/picture/motztzimANImale.jpg.jpg"
+    },
+    {
+        "id": 9,
+        "name":"4 pacifier 2 color",
+        "price": 6.30,
+        "imgUrl": "/picture/motztzimPG.jpg"
+    },
+    {
+        "id": 10,
+        "name":"Similack stepONE",
+        "price": 1,
+        "imgUrl": "/picture/similackBlue.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Similack vegetal",
+        "price": 44.70,
+        "imgUrl": "/picture/similactzimchi.png"
+    },
+    {
+        "id": 12,
+        "name":"similack Gold x3",
+        "price": 100.00,
+        "imgUrl": "/picture/similacx3.jpg"
+    }
+]
